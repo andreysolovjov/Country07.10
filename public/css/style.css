@@ -1,4 +1,44 @@
-body {
-    background-color: black;
-    color: #fff;
+table { 
+    width: 30%;
+    border: 4px double black;
+    border-collapse: collapse;
+   }
+th { 
+    text-align: left;
+    background: sandybrown;
+    padding: 5px;
+    border: 1px solid black;
+   }
+td { 
+    padding: 5px; 
+    border: 1px solid black; 
+    background: #ccc;
+   }
+.submitBtn {
+    padding: 12px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: #ccc;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+
+.submitBtn:hover {
+    {background-color: #3e8e41}
+  }
+.submitBtn:active {
+    background-color: grey;
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+  }
+.custom-select{
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+
 }
